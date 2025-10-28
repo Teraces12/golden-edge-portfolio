@@ -1,0 +1,60 @@
+Hi Lebede,
+
+ 
+
+Please confirm below.
+
+I Lebede Ngartera, hereby give PTR Global and its representative Harshita Verma the Right to Represent me for the position of Software Engineering - Software Engineer V with Meta Job ID: 66227-1
+
+Job Title: Senior Machine Learning Engineer
+
+Location: Remote
+
+Duration: 12 months with possible extension
+
+Client – Meta
+
+Job ID: 66227-1
+
+Pay Rate: $108.00/hr on W2
+
+
+Summary:
+
+Meta is seeking a strong Senior Machine Learning Engineer to join our Fundamental AI Research (FAIR) team, an organization focused on making research breakthroughs in AI
+Responsibilities include developing deep learning libraries that support large-scale distributed training, open sourcing high quality code and reproducible results for the community, and bringing the latest research to Meta products for connecting billions of users. The chosen candidate will work with a diverse and highly interdisciplinary team of scientists, engineers, and cross-functional partners, and will have access to cutting edge technology, resources, and research facilities.
+
+Responsibilities
+
+Engineer, design, implement, and improve highly-scalable machine learning systems and tools for enabling research
+Apply knowledge of relevant research domains, along with expert coding skills, to platform and framework development projects
+Write clean and robust machine learning code
+Contribute to open-source projects
+Minimum Qualifications
+
+Degree in Computer Science, Computer Engineering or relevant technical field
+5+ years experience with deep learning
+Experience developing machine learning algorithms or machine learning infrastructure in Python or C/C++
+Experience with machine learning frameworks such as PyTorch and distributed optimization techniques such as FSDP/DDP
+Experience working with large datasets and data pipelines
+Solid understanding of algorithms, data structures, and software engineering best practices.
+Demonstrated ability to work collaboratively in a fast-paced, team-oriented environment.
+Excellent problem-solving and communication skills.
+Preferred Qualifications
+
+Demonstrated software engineering experience via work experience, or widely used contributions in open source repositories (e.g. GitHub)
+Prior contributions to open-source AI/ML projects
+ 
+
+Must Have skills:
+
+5-10 years of Python experience
+3-5 years of Pytorch experience
+5+ years of Distributed ML Training (FSDP/DDP) experience
+3-5 years of Dataset / Pytorch DataLoader experience
+ 
+
+Nice to have skills:
+
+Demonstrated software engineering experience via work experience, or widely used contributions in open source repositories (e.g. GitHub)
+Prior contributions to open-source AI/ML projects

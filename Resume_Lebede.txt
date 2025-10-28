@@ -1,0 +1,27 @@
+LEBEDE NGARTERA
+Senior Machine Learning Engineer | AI Research & Infrastructure Specialist
+Upper Darby, PA | +1 (267) 961 1931 | ngarteralebede12@gmail.com | GitHub
+
+PROFESSIONAL SUMMARY
+Ph.D. in Applied Mathematics with 7+ years of hands-on experience engineering scalable deep learning systems, implementing distributed ML training, and optimizing large-scale data pipelines. Expert in PyTorch (5+ years) with proven ability to design, implement, and improve highly-scalable ML frameworks for research and production. Demonstrated track record of translating cutting-edge research into reproducible, production-ready code. Strong background in algorithms, software engineering best practices, and collaborative research environments.
+PROFESSIONAL EXPERIENCE
+Senior ML Engineer & AI Researcher | TeraSystemsAI, Independent Research | Remote/Philadelphia | 2019 – Present
+•	Deep Learning Infrastructure: Engineered scalable PyTorch-based ML systems for production deployment, implementing custom training loops, optimization techniques, and performance improvements (300x speedup).
+•	Distributed Data Pipelines: Architected large-scale data loading and processing systems; optimized PyTorch DataLoader strategies for efficient batch processing of enterprise-scale datasets (200-300 page financial documents).
+•	Framework Development: Built and open-sourced reproducible research code for Bayesian RAG platform; designed ML algorithms achieving 93.1% accuracy with 44.8% improvement over baseline; contributed to peer-reviewed research publications.
+•	Algorithm & Optimization: Implemented advanced ML algorithms in PyTorch/TensorFlow, A/B testing frameworks, and statistical validation (F1, BLEU, ROUGE metrics) for research-to-production pipeline.
+
+Data Scientist & Assistant Lecturer | University of N'djamena, Department of Mathematics | 2013 – 2018
+•	Designed and implemented ML models for quantitative analysis, forecasting, and statistical applications
+•	Taught graduate courses in AI, Machine Learning, and Statistics; mentored research methodology and implementation
+EDUCATION & CERTIFICATIONS
+Ph.D. in Applied Mathematics, Cheikh Anta Diop University of Dakar (Analysis, Statistics & Applications); AWS SageMaker ML Engineer; IBM Data Science Specialization; Natural Language Processing (DeepLearning.AI)
+
+TECHNICAL SKILLS
+Programming: Python (7+ yrs), C/C++, R, Java, LaTeX | ML Frameworks: PyTorch (5+ yrs), TensorFlow, scikit-learn, HuggingFace Transformers
+Cloud & DevOps: Azure, AWS, GCP, Docker, Git | Data: Large-scale datasets, ETL pipelines, PyTorch DataLoader optimization, FAISS
+Analytics: A/B Testing, F1/BLEU/ROUGE metrics, statistical analysis | Tools: Jupyter, VS Code, Streamlit 
+KEY ACHIEVEMENTS & PUBLICATIONS
+•	Research: 9+ peer-reviewed publications in AI/ML, including "Hybrid Naïve Bayes Models for Scam Detection" (IEEE Access, 2025) and "Bayesian Neural Networks" (Frontiers, 2025)
+•	Performance: 93.1% accuracy, 44.8% improvement over baseline; 300x production optimization; 99.9% system uptime
+•	Open-Source: Reproducible research code, community-driven development, scalable ML frameworks

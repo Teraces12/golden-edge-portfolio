@@ -1,0 +1,44 @@
+Subject: Confirmation of Representation - Senior Machine Learning Engineer (Meta Job ID: 66227-1)
+
+Dear Harshita Verma and PTR Global Team,
+
+Thank you for the opportunity to be considered for the Senior Machine Learning Engineer position at Meta's Fundamental AI Research (FAIR) team.
+
+I am pleased to confirm my agreement and hereby authorize PTR Global and its representative Harshita Verma to represent me for the following position:
+
+**Position Details:**
+- Job Title: Senior Machine Learning Engineer
+- Location: Remote
+- Duration: 12 months with possible extension
+- Client: Meta
+- Job ID: 66227-1
+- Pay Rate: $108.00/hr on W2
+
+**Confirmation Statement:**
+I, Lebede Ngartera, hereby give PTR Global and its representative Harshita Verma the Right to Represent me for the position of Senior Machine Learning Engineer with Meta (Job ID: 66227-1).
+
+I am enthusiastic about this opportunity to contribute to Meta's FAIR team, bringing my expertise in deep learning infrastructure, PyTorch optimization, and large-scale machine learning systems. With 7+ years of experience in designing and deploying scalable ML frameworks, combined with a Ph.D. in Applied Mathematics and 9+ peer-reviewed publications, I am confident in my ability to deliver value to your research and product development initiatives.
+
+Please find attached my resume customized for this position, highlighting my relevant experience in:
+- Deep learning systems development and optimization (300x performance improvement)
+- PyTorch and distributed ML infrastructure
+- Large-scale data pipeline architecture
+- Open-source AI/ML contributions
+- Research-to-production pipeline development
+
+I am ready to move forward with the interview process at your earliest convenience and look forward to discussing how my background aligns with Meta FAIR's mission of making research breakthroughs in AI.
+
+Thank you for considering my application. Please feel free to contact me directly if you need any additional information.
+
+Best regards,
+
+**Lebede Ngartera**
+Senior Machine Learning Engineer | AI Research & Infrastructure Specialist
+Upper Darby, PA
+Phone: +1 (267) 961 1931
+Email: ngarteralebede12@gmail.com
+LinkedIn: https://linkedin.com/in/lebede-ngartera
+GitHub: https://github.com/lebede-ngartera
+
+---
+*Resume attached: Lebede_Ngartera_Resume_Meta_FAIR.docx*

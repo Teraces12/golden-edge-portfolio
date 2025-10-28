@@ -4,6 +4,10 @@
 
 Welcome to my revolutionary portfolio showcasing cutting-edge AI research and implementations in the Golden Age of Technology.
 
+<a href="https://buy.stripe.com/3cI9AS11N67I3W66IH04801" class="donate-button" target="_blank">
+  💰 Support My Research
+</a>
+
 ## 🚀 Featured Research
 
 ### Bayesian RAG Peer Review Platform

@@ -19,7 +19,9 @@ Welcome to my revolutionary portfolio showcasing cutting-edge AI research and im
 
 ## 💰 Support our Research
 Help fund cutting-edge AI research in Bayesian RAG and uncertainty quantification.
+
 **💳 Donate**: [Support via Stripe](https://buy.stripe.com/3cI9AS11N67I3W66IH04801)
+
 *Your support enables Bayesian neural networks, reproducible research, and open-source AI tools.*
 
 

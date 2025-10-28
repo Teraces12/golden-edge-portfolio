@@ -38,7 +38,7 @@ Welcome to my revolutionary portfolio showcasing cutting-edge AI research and im
 
 ## 📧 Contact
 
-- **Email**: research@terasystems.ai
+- **Email**: [research@terasystems.ai](mailto:research@terasystems.ai) | [lebede@terasystems.ai](mailto:lebede@terasystems.ai)
 - **LinkedIn**: [Lebede Ngartera](https://www.linkedin.com/in/lebede-ngartera-82429343)
 - **Organization**: [TeraSystemsAI](https://github.com/TeraSystemsAI)
 

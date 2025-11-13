@@ -1,6 +1,29 @@
-# 🌟 Golden Edge Portfolio - Lebede Ngartera
+<div align="center">
+
+<!-- Animated ASCII Art Header - Portfolio in Red -->
+
+# 🌟 ✨Portfolio ✨
 
 <div align="center">
+
+<!-- ASCII Art Header - PORTFOLIO (Correct Spelling) in Yellow -->
+
+<div align="center">
+
+
+
+**Dr. Lebede Ngartera**
+**AI Strategist** • **Bayesian RAG Pioneer** • **Ph.D. Applied Mathematics**
+
+---
+
+<!-- Dynamic Badges with Animation -->
+![](https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square&logo=github&logoColor=white)
+![](https://img.shields.io/badge/Updates-Continuous-blue?style=flat-square&logo=git&logoColor=white)
+![](https://img.shields.io/badge/Open%20Source-100%25-brightgreen?style=flat-square&logo=open-source-initiative&logoColor=white)
+
+</div>
+
 
 [![View Portfolio](https://img.shields.io/badge/🌟_View_Portfolio-Interactive_HTML-blue?style=for-the-badge)](Golden_Edge_Portfolio_Animated.html)
 [![GitHub Pages](https://img.shields.io/badge/📖_GitHub_Pages-Coming_Soon-green?style=for-the-badge)](https://teraces12.github.io/golden-edge-portfolio/)
@@ -63,11 +86,31 @@ Help fund cutting-edge AI research in Bayesian RAG and uncertainty quantificatio
 
 <div align="center">
 
-![Bayesian Methods](https://img.shields.io/badge/Bayesian_Methods-6366f1?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEyIDJDMTMuMSAyIDI0IDMuOSA4IDggMTIgMTJMMTEuMSAxMy4xQzEwLjQgMTMuNyAxMCAxNC4zIDEwIDE1QzEwIDE2LjEgMTAuOSAxNyAxMiAxN0MxMy4xIDE3IDE0IDE2LjEgMTQgMTVDMTQgMTQuMyAxMy42IDEzLjcgMTIuOSAxMy4xTDEyIDEyQzEzLjEgMTIgMjQgMTAuMSAyNCA5QzI0IDMuOSA4IDIgMTIgMnoiIGZpbGw9IiM2MzY2ZjEiLz4KPC9zdmc+)
-![RAG Systems](https://img.shields.io/badge/RAG_Systems-8b5cf6?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTkgMTJIMTU4VjE0SDlWMjJIMTE5VjE4SDE1OFYxNkgxMVYyMEg5VjE0Wk0xNSA4SDIxVjEwSDE1VjIySDE3VjE4SDIxVjE2SDE3VjE0SDE1VjEwWk0yMSA4VjIySDIzVjE4SDIxVjE2Wk0yNSA4SDMxVjEwSDI1VjIySDI3VjE4SDMxVjE2SDI3VjE0SDI1VjEwWk0zMSA4VjIySDMzVjE4SDMxVjE2Wk0zNSA4SDQxVjEwSDM1VjIySDM3VjE4SDQxVjE2SDM3VjE0SDM1VjEwWk00MSA4VjIySDQzVjE4SDQxVjE2Wk00NSA4SDUxVjEwSDR5VjIySDQ3VjE4SDUxVjE2SDQ3VjE0SDR5VjEwWk01MSA4VjIySDUzVjE4SDUxVjE2Wk01NSA4SDYxVjEwSDU1VjIySDU3VjE4SDYxVjE2SDU3VjE0SDU1VjEwWk02MSA4VjIySDYzVjE4SDYxVjE2Wk02NSA4SDcxVjEwSDY0VjIySDY2VjE4SDcxVjE2SDY2VjE0SDY0VjEwWk03MSA4VjIySDczVjE4SDcxVjE2Wk03NSA4VjIxVjEwSDc1VjIySDc3VjE4SDIxVjE2SDc3VjE0SDc1VjEwWk04MSA4SDg3VjEwSDgxVjIySDgzVjE4SDg3VjE2SDgzVjE0SDgxVjEwWk04NyA4VjIySDg5VjE4SDg3VjE2Wk05MSA4SDk3VjEwSDkxVjIySDkzVjE4SDk3VjE2SDkzVjE0SDkxVjEwWk05NyA4VjIySDk5VjE4SDk3VjE2Wk0xMDEgOEgxMDdWMTAxMDFWMjJIMTAzVjE4SDEwN1YxNkgxMDNWjE0SDEwMXYxMFoxMDcgOFYyMkgxMDlWMThIMTA3VjE2Wk0xMTEgOEgxMTdWMTAxMTFWMjJIMTEzVjE4SDExN1YxNkgxMTNWjE0SDExMXYxMFoxMTcgOFYyMkgxMTlWMThIMTE3VjE2Wk0xMjEgOEgxMjdWMTAxMjFWMjJIMTIzVjE4SDEyN1YxNkgxMjNWjE0SDEyMXYxMFoxMjcgOFYyMkgxMjlWMThIMTI3VjE2Wk0xMzEgOEgxMzdWMTAxMzFWMjJIMTMzVjE4SDEzN1YxNkgxMzNWjE0SDEzMXYxMFoxMzc4VjIySDEzOVYxOEgxMzdWMTha" fill="#8b5cf6")
-![NLP](https://img.shields.io/badge/Natural_Language_Processing-06b6d4?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTkgMTJIMTU4VjE0SDlWMjJIMTE5VjE4SDE1OFYxNkgxMVYyMEg5VjE0Wk0xNSA4SDIxVjEwSDE1VjIySDE3VjE4SDIxVjE2SDE3VjE0SDE1VjEwWk0yMSA4VjIySDIzVjE4SDIxVjE2Wk0yNSA4SDMxVjEwSDI1VjIySDI3VjE4SDMxVjE2SDI3VjE0SDI1VjEwWk0zMSA4VjIySDMzVjE4SDMxVjE2Wk0zNSA4SDQxVjEwSDM1VjIySDM3VjE4SDQxVjE2SDM3VjE0SDM1VjEwWk00MSA4VjIySDQzVjE4SDQxVjE2Wk00NSA4SDUxVjEwSDR5VjIySDQ3VjE4SDUxVjE2SDQ3VjE0SDR5VjEwWk01MSA4VjIySDUzVjE4SDUxVjE2Wk01NSA4SDYxVjEwSDU1VjIySDU3VjE4SDYxVjE2SDU3VjE0SDU1VjEwWk02MSA4VjIySDYzVjE4SDYxVjE2Wk02NSA4SDcxVjEwSDY0VjIySDY2VjE4SDcxVjE2SDY2VjE0SDY0VjEwWk03MSA4VjIySDczVjE4SDcxVjE2Wk03NSA4VjIxVjEwSDc1VjIySDc3VjE4SDIxVjE2SDc3VjE0SDc1VjEwWk04MSA4SDg3VjEwSDgxVjIySDgzVjE4SDg3VjE2SDgzVjE0SDgxVjEwWk04NyA4VjIySDg5VjE4SDg3VjE2Wk05MSA4SDk3VjEwSDkxVjIySDkzVjE4SDk3VjE2SDkzVjE0SDkxVjEwWk05NyA4VjIySDk5VjE4SDk3VjE2Wk0xMDEgOEgxMDdWMTAxMDFWMjJIMTAzVjE4SDEwN1YxNkgxMDNWjE0SDEwMXYxMFoxMDcgOFYyMkgxMDlWMThIMTA3VjE2Wk0xMTEgOEgxMTdWMTAxMTFWMjJIMTEzVjE4SDExN1YxNkgxMTNWjE0SDExMXYxMFoxMTcgOFYyMkgxMTlWMThIMTE3VjE2Wk0xMjEgOEgxMjdWMTAxMjFWMjJIMTIzVjE4SDEyN1YxNkgxMjNWjE0SDEyMXYxMFoxMjcgOFYyMkgxMjlWMThIMTI3VjE2Wk0xMzEgOEgxMzdWMTAxMzFWMjJIMTMzVjE4SDEzN1YxNkgxMzNWjE0SDEzMXYxMFoxMzc4VjIySDEzOVYxOEgxMzdWMTha" fill="#06b6d4")
-![ML Engineering](https://img.shields.io/badge/Machine_Learning_Engineering-10b981?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTkgMTJIMTU4VjE0SDlWMjJIMTE5VjE4SDE1OFYxNkgxMVYyMEg5VjE0Wk0xNSA4SDIxVjEwSDE1VjIySDE3VjE4SDIxVjE2SDE3VjE0SDE1VjEwWk0yMSA4VjIySDIzVjE4SDIxVjE2Wk0yNSA4SDMxVjEwSDI1VjIySDI3VjE4SDMxVjE2SDI3VjE0SDI1VjEwWk0zMSA4VjIySDMzVjE4SDMxVjE2Wk0zNSA4SDQxVjEwSDM1VjIySDM3VjE4SDQxVjE2SDM3VjE0SDM1VjEwWk00MSA4VjIySDQzVjE4SDQxVjE2Wk00NSA4SDUxVjEwSDR5VjIySDQ3VjE4SDUxVjE2SDQ3VjE0SDR5VjEwWk01MSA4VjIySDUzVjE4SDUxVjE2Wk01NSA4SDYxVjEwSDU1VjIySDU3VjE4SDYxVjE2SDU3VjE0SDU1VjEwWk02MSA4VjIySDYzVjE4SDYxVjE2Wk02NSA4SDcxVjEwSDY0VjIySDY2VjE4SDcxVjE2SDY2VjE0SDY0VjEwWk03MSA4VjIySDczVjE4SDcxVjE2Wk03NSA4VjIxVjEwSDc1VjIySDc3VjE4SDIxVjE2SDc3VjE0SDc1VjEwWk04MSA4SDg3VjEwSDgxVjIySDgzVjE4SDg3VjE2SDgzVjE0SDgxVjEwWk04NyA4VjIySDg5VjE4SDg3VjE2Wk05MSA4SDk3VjEwSDkxVjIySDkzVjE4SDk3VjE2SDkzVjE0SDkxVjEwWk05NyA4VjIySDk5VjE4SDk3VjE2Wk0xMDEgOEgxMDdWMTAxMDFWMjJIMTAzVjE4SDEwN1YxNkgxMDNWjE0SDEwMXYxMFoxMDcgOFYyMkgxMDlWMThIMTA3VjE2Wk0xMTEgOEgxMTdWMTAxMTFWMjJIMTEzVjE4SDExN1YxNkgxMTNWjE0SDExMXYxMFoxMTcgOFYyMkgxMTlWMThIMTE3VjE2Wk0xMjEgOEgxMjdWMTAxMjFWMjJIMTIzVjE4SDEyN1YxNkgxMjNWjE0SDEyMXYxMFoxMjcgOFYyMkgxMjlWMThIMTI3VjE2Wk0xMzEgOEgxMzdWMTAxMzFWMjJIMTMzVjE4SDEzN1YxNkgxMzNWjE0SDEzMXYxMFoxMzc4VjIySDEzOVYxOEgxMzdWMTha" fill="#10b981")
-![Data Science](https://img.shields.io/badge/Data_Science_&_Analytics-f59e0b?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTkgMTJIMTU4VjE0SDlWMjJIMTE5VjE4SDE1OFYxNkgxMVYyMEg5VjE0Wk0xNSA4SDIxVjEwSDE1VjIySDE3VjE4SDIxVjE2SDE3VjE0SDE1VjEwWk0yMSA4VjIySDIzVjE4SDIxVjE2Wk0yNSA4SDMxVjEwSDI1VjIySDI3VjE4SDMxVjE2SDI3VjE0SDI1VjEwWk0zMSA4VjIySDMzVjE4SDMxVjE2Wk0zNSA4SDQxVjEwSDM1VjIySDM3VjE4SDQxVjE2SDM3VjE0SDM1VjEwWk00MSA4VjIySDQzVjE4SDQxVjE2Wk00NSA4SDUxVjEwSDR5VjIySDQ3VjE4SDUxVjE2SDQ3VjE0SDR5VjEwWk01MSA4VjIySDUzVjE4SDUxVjE2Wk01NSA4SDYxVjEwSDU1VjIySDU3VjE4SDYxVjE2SDU3VjE0SDU1VjEwWk02MSA4VjIySDYzVjE4SDYxVjE2Wk02NSA4SDcxVjEwSDY0VjIySDY2VjE4SDcxVjE2SDY2VjE0SDY0VjEwWk03MSA4VjIySDczVjE4SDcxVjE2Wk03NSA4VjIxVjEwSDc1VjIySDc3VjE4SDIxVjE2SDc3VjE0SDc1VjEwWk04MSA4SDg3VjEwSDgxVjIySDgzVjE4SDg3VjE2SDgzVjE0SDgxVjEwWk04NyA4VjIySDg5VjE4SDg3VjE2Wk05MSA4SDk3VjEwSDkxVjIySDkzVjE4SDk3VjE2SDkzVjE0SDkxVjEwWk05NyA4VjIySDk5VjE4SDk3VjE2Wk0xMDEgOEgxMDdWMTAxMDFWMjJIMTAzVjE4SDEwN1YxNkgxMDNWjE0SDEwMXYxMFoxMDcgOFYyMkgxMDlWMThIMTA3VjE2Wk0xMTEgOEgxMTdWMTAxMTFWMjJIMTEzVjE4SDExN1YxNkgxMTNWjE0SDExMXYxMFoxMTcgOFYyMkgxMTlWMThIMTE3VjE2Wk0xMjEgOEgxMjdWMTAxMjFWMjJIMTIzVjE4SDEyN1YxNkgxMjNWjE0SDEyMXYxMFoxMjcgOFYyMkgxMjlWMThIMTI3VjE2Wk0xMzEgOEgxMzdWMTAxMzFWMjJIMTMzVjE4SDEzN1YxNkgxMzNWjE0SDEzMXYxMFoxMzc4VjIySDEzOVYxOEgxMzdWMTha" fill="#f59e0b")
+# 🌟 Technical Expertise
+
+[![Bayesian Methods](https://img.shields.io/badge/Bayesian_Methods-6366f1?style=for-the-badge&logo=python&logoColor=white)](https://github.com/TeraSystemsAI)
+[![RAG Systems](https://img.shields.io/badge/RAG_Systems-8b5cf6?style=for-the-badge&logo=database&logoColor=white)](https://github.com/TeraSystemsAI)
+[![NLP](https://img.shields.io/badge/Natural_Language_Processing-06b6d4?style=for-the-badge&logo=tensorflow&logoColor=white)](https://github.com/TeraSystemsAI)
+
+[![ML Engineering](https://img.shields.io/badge/ML_Engineering-10b981?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://github.com/TeraSystemsAI)
+[![Data Science](https://img.shields.io/badge/Data_Science_%26_Analytics-f59e0b?style=for-the-badge&logo=pandas&logoColor=white)](https://github.com/TeraSystemsAI)
+[![Uncertainty Quantification](https://img.shields.io/badge/Uncertainty_Quantification-ec4899?style=for-the-badge&logo=pytorch&logoColor=white)](https://github.com/TeraSystemsAI)
+
+---
+
+## 🎯 Key Achievements
+
+[![GitHub Stars](https://img.shields.io/badge/GitHub_Stars-500+-yellow?style=for-the-badge&logo=github)](https://github.com/TeraSystemsAI)
+[![P@3 Improvement](https://img.shields.io/badge/P%403_Improvement-+20.6%25-brightgreen?style=for-the-badge)](https://github.com/TeraSystemsAI)
+[![Calibration](https://img.shields.io/badge/Calibration_Improvement-26.8%25-brightblue?style=for-the-badge)](https://github.com/TeraSystemsAI)
+
+---
+
+## 🏆 Research Focus
+
+[![Peer Reviewed](https://img.shields.io/badge/Peer_Reviewed-Research-informational?style=for-the-badge)](https://github.com/TeraSystemsAI)
+[![Open Source](https://img.shields.io/badge/Open_Source-Apache_2.0-success?style=for-the-badge)](https://github.com/TeraSystemsAI)
+[![Production Ready](https://img.shields.io/badge/Production_Ready-✓-brightgreen?style=for-the-badge)](https://github.com/TeraSystemsAI)
 
 </div>
 

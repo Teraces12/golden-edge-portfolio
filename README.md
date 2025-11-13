@@ -16,7 +16,7 @@
 
 ---
 
-## � Featured Research & Innovations
+## 🧬 Featured Research & Innovations
 
 ### 🧬 Bayesian RAG Peer Review Platform
 - **Framework**: Uncertainty-Aware Retrieval-Augmented Generation with Monte Carlo Dropout

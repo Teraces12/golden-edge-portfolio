@@ -4,17 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>🌟 Golden Edge Portfolio - Lebede Ngartera</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         :root {
             --primary: #6366f1;
             --secondary: #8b5cf6;
             --accent: #06b6d4;
+            --tertiary: #f59e0b;
             --dark: #0f172a;
+            --darker: #020617;
             --light: #f8fafc;
-            --gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            --glow: 0 0 20px rgba(99, 102, 241, 0.3);
+            --glass: rgba(255, 255, 255, 0.1);
+            --glass-border: rgba(255, 255, 255, 0.2);
+            --gradient-primary: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
+            --gradient-secondary: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            --gradient-accent: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+            --gradient-dark: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #334155 100%);
+            --glow-primary: 0 0 30px rgba(99, 102, 241, 0.5);
+            --glow-secondary: 0 0 30px rgba(139, 92, 246, 0.5);
+            --glow-accent: 0 0 30px rgba(6, 182, 212, 0.5);
+            --shadow-soft: 0 8px 32px rgba(0, 0, 0, 0.1);
+            --shadow-medium: 0 16px 64px rgba(0, 0, 0, 0.15);
+            --shadow-hard: 0 32px 128px rgba(0, 0, 0, 0.2);
+            --blur: blur(20px);
+            --border-radius: 24px;
+            --transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
         }
 
         * {
@@ -23,21 +39,60 @@
             box-sizing: border-box;
         }
 
-        body {
-            font-family: 'Inter', sans-serif;
-            line-height: 1.6;
-            color: var(--dark);
-            background: var(--light);
-            overflow-x: hidden;
+        html {
+            scroll-behavior: smooth;
         }
 
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            line-height: 1.6;
+            color: var(--dark);
+            background: var(--darker);
+            overflow-x: hidden;
+            position: relative;
+        }
+
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background:
+                radial-gradient(circle at 20% 80%, rgba(120, 119, 198, 0.3) 0%, transparent 50%),
+                radial-gradient(circle at 80% 20%, rgba(255, 119, 198, 0.3) 0%, transparent 50%),
+                radial-gradient(circle at 40% 40%, rgba(120, 219, 226, 0.3) 0%, transparent 50%);
+            pointer-events: none;
+            z-index: -1;
+        }
+
+        /* Advanced Glassmorphism */
+        .glass {
+            background: var(--glass);
+            backdrop-filter: var(--blur);
+            -webkit-backdrop-filter: var(--blur);
+            border: 1px solid var(--glass-border);
+            border-radius: var(--border-radius);
+        }
+
+        .glass-strong {
+            background: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(40px);
+            -webkit-backdrop-filter: blur(40px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            border-radius: var(--border-radius);
+        }
+
+        /* Hero Section - Ultra Modern */
         .hero {
-            background: var(--gradient);
-            color: white;
-            padding: 100px 20px;
-            text-align: center;
+            min-height: 100vh;
             position: relative;
             overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: var(--gradient-dark);
         }
 
         .hero::before {
@@ -47,228 +102,493 @@
             left: 0;
             right: 0;
             bottom: 0;
-            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="grain" width="100" height="100" patternUnits="userSpaceOnUse"><circle cx="25" cy="25" r="1" fill="white" opacity="0.1"/><circle cx="75" cy="75" r="1" fill="white" opacity="0.1"/><circle cx="50" cy="10" r="0.5" fill="white" opacity="0.05"/></pattern></defs><rect width="100" height="100" fill="url(%23grain)"/></svg>');
-            animation: float 20s ease-in-out infinite;
+            background:
+                url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000"><defs><pattern id="grain" width="100" height="100" patternUnits="userSpaceOnUse"><circle cx="50" cy="50" r="0.5" fill="white" opacity="0.03"/><circle cx="150" cy="150" r="0.8" fill="white" opacity="0.02"/><circle cx="250" cy="250" r="0.3" fill="white" opacity="0.04"/></pattern></defs><rect width="1000" height="1000" fill="url(%23grain)"/></svg>'),
+                var(--gradient-primary);
+            animation: heroShift 20s ease-in-out infinite;
+            opacity: 0.9;
         }
 
-        @keyframes float {
-            0%, 100% { transform: translateY(0px) rotate(0deg); }
-            33% { transform: translateY(-10px) rotate(1deg); }
-            66% { transform: translateY(5px) rotate(-1deg); }
+        @keyframes heroShift {
+            0%, 100% { transform: translate(0, 0) scale(1); }
+            25% { transform: translate(-20px, -10px) scale(1.02); }
+            50% { transform: translate(10px, -20px) scale(0.98); }
+            75% { transform: translate(-10px, 10px) scale(1.01); }
+        }
+
+        .hero-content {
+            text-align: center;
+            z-index: 2;
+            position: relative;
+            max-width: 1200px;
+            padding: 0 2rem;
         }
 
         .hero h1 {
-            font-size: 3.5rem;
-            font-weight: 700;
+            font-size: clamp(3rem, 8vw, 6rem);
+            font-weight: 900;
             margin-bottom: 1rem;
-            animation: slideUp 1s ease-out;
-            text-shadow: 0 0 30px rgba(255,255,255,0.3);
+            background: var(--gradient-primary);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            animation: textGlow 3s ease-in-out infinite alternate;
+            text-shadow: 0 0 40px rgba(102, 126, 234, 0.5);
+            letter-spacing: -0.02em;
+        }
+
+        @keyframes textGlow {
+            from { filter: brightness(1) drop-shadow(0 0 20px rgba(102, 126, 234, 0.3)); }
+            to { filter: brightness(1.2) drop-shadow(0 0 40px rgba(102, 126, 234, 0.6)); }
         }
 
         .hero .subtitle {
-            font-size: 1.5rem;
+            font-size: clamp(1.2rem, 3vw, 2rem);
+            font-weight: 300;
             opacity: 0.9;
             margin-bottom: 2rem;
-            animation: slideUp 1s ease-out 0.2s both;
+            color: rgba(255, 255, 255, 0.9);
+            animation: fadeInUp 1s ease-out 0.3s both;
+            letter-spacing: 0.02em;
         }
 
         .hero .tagline {
-            font-size: 1.2rem;
+            font-size: clamp(1rem, 2vw, 1.4rem);
             font-style: italic;
-            animation: fadeIn 1s ease-out 0.4s both;
-        }
-
-        @keyframes slideUp {
-            from { transform: translateY(50px); opacity: 0; }
-            to { transform: translateY(0); opacity: 1; }
-        }
-
-        @keyframes fadeIn {
-            from { opacity: 0; }
-            to { opacity: 1; }
-        }
-
-        .container {
-            max-width: 1200px;
+            font-weight: 200;
+            animation: fadeInUp 1s ease-out 0.6s both;
+            color: rgba(255, 255, 255, 0.7);
+            max-width: 600px;
             margin: 0 auto;
-            padding: 0 20px;
+            line-height: 1.4;
         }
 
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Advanced Particle System */
+        .particle-container {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            overflow: hidden;
+        }
+
+        .particle {
+            position: absolute;
+            border-radius: 50%;
+            animation: particleFloat linear infinite;
+        }
+
+        .particle:nth-child(odd) {
+            background: var(--primary);
+            box-shadow: var(--glow-primary);
+        }
+
+        .particle:nth-child(even) {
+            background: var(--secondary);
+            box-shadow: var(--glow-secondary);
+        }
+
+        .particle:nth-child(3n) {
+            background: var(--accent);
+            box-shadow: var(--glow-accent);
+        }
+
+        @keyframes particleFloat {
+            0% {
+                transform: translateY(100vh) rotate(0deg);
+                opacity: 0;
+            }
+            10% {
+                opacity: 1;
+            }
+            90% {
+                opacity: 1;
+            }
+            100% {
+                transform: translateY(-100px) rotate(360deg);
+                opacity: 0;
+            }
+        }
+
+        /* Container and Layout */
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        /* Section Styling - Ultra Modern */
         .section {
-            padding: 80px 0;
+            padding: 120px 0;
+            position: relative;
             opacity: 0;
-            transform: translateY(30px);
-            transition: all 0.6s ease;
+            transform: translateY(50px) rotateX(10deg);
+            transition: var(--transition);
         }
 
         .section.visible {
             opacity: 1;
-            transform: translateY(0);
+            transform: translateY(0) rotateX(0deg);
         }
 
         .section h2 {
-            font-size: 2.5rem;
-            margin-bottom: 2rem;
+            font-size: clamp(2rem, 5vw, 3.5rem);
+            font-weight: 800;
             text-align: center;
-            background: var(--gradient);
+            margin-bottom: 3rem;
+            background: var(--gradient-primary);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
             position: relative;
+            letter-spacing: -0.02em;
         }
 
         .section h2::after {
             content: '';
             position: absolute;
-            bottom: -10px;
+            bottom: -20px;
             left: 50%;
             transform: translateX(-50%);
-            width: 60px;
-            height: 3px;
-            background: var(--gradient);
+            width: 80px;
+            height: 4px;
+            background: var(--gradient-accent);
             border-radius: 2px;
+            animation: lineGrow 1s ease-out 0.5s both;
         }
 
+        @keyframes lineGrow {
+            from { width: 0; }
+            to { width: 80px; }
+        }
+
+        /* Card System - Advanced Glassmorphism */
         .card {
-            background: white;
-            border-radius: 20px;
-            padding: 2rem;
-            margin: 2rem 0;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-            transition: all 0.3s ease;
-            border: 1px solid rgba(99, 102, 241, 0.1);
+            background: var(--glass);
+            backdrop-filter: var(--blur);
+            -webkit-backdrop-filter: var(--blur);
+            border: 1px solid var(--glass-border);
+            border-radius: var(--border-radius);
+            padding: 3rem;
+            margin: 3rem 0;
+            position: relative;
+            overflow: hidden;
+            transition: var(--transition);
+            box-shadow: var(--shadow-soft);
+        }
+
+        .card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1), transparent);
+            transition: left 0.5s;
+        }
+
+        .card:hover::before {
+            left: 100%;
         }
 
         .card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 20px 40px rgba(0,0,0,0.15);
-            border-color: var(--primary);
+            transform: translateY(-10px) scale(1.02);
+            box-shadow: var(--shadow-hard);
+            border-color: rgba(255, 255, 255, 0.4);
         }
 
         .card.featured {
-            background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
-            border-left: 5px solid var(--primary);
+            background: var(--glass-strong);
+            border: 2px solid var(--glass-border);
+            position: relative;
         }
 
+        .card.featured::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: var(--gradient-primary);
+            border-radius: var(--border-radius) var(--border-radius) 0 0;
+        }
+
+        /* Metrics Grid - 3D Effects */
         .metric-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
             gap: 2rem;
-            margin: 2rem 0;
+            margin: 3rem 0;
+            perspective: 1000px;
         }
 
         .metric {
+            background: var(--glass-strong);
+            backdrop-filter: var(--blur);
+            -webkit-backdrop-filter: var(--blur);
+            border: 1px solid var(--glass-border);
+            border-radius: var(--border-radius);
+            padding: 3rem 2rem;
             text-align: center;
-            padding: 2rem;
-            background: white;
-            border-radius: 15px;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
-            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+            transition: var(--transition);
+            transform-style: preserve-3d;
+        }
+
+        .metric::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: conic-gradient(from 0deg, transparent, rgba(99, 102, 241, 0.1), transparent);
+            animation: rotate 4s linear infinite;
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+
+        .metric:hover::before {
+            opacity: 1;
         }
 
         .metric:hover {
-            transform: scale(1.05);
-            box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+            transform: translateY(-15px) rotateY(5deg) rotateX(5deg);
+            box-shadow: var(--shadow-hard);
+            border-color: var(--primary);
+        }
+
+        @keyframes rotate {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
         }
 
         .metric .number {
-            font-size: 2.5rem;
-            font-weight: 700;
-            color: var(--primary);
-            margin-bottom: 0.5rem;
+            font-size: clamp(2.5rem, 6vw, 4rem);
+            font-weight: 900;
+            background: var(--gradient-primary);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 1rem;
+            font-family: 'JetBrains Mono', monospace;
+            letter-spacing: -0.02em;
         }
 
         .metric .label {
-            font-size: 1.1rem;
-            color: var(--dark);
+            font-size: 1.2rem;
+            color: rgba(255, 255, 255, 0.8);
             font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
         }
 
+        /* Tech Stack - Interactive */
         .tech-stack {
             display: flex;
             flex-wrap: wrap;
-            gap: 1rem;
+            gap: 1.5rem;
             justify-content: center;
-            margin: 2rem 0;
+            margin: 3rem 0;
         }
 
         .tech-item {
-            background: var(--gradient);
-            color: white;
-            padding: 0.5rem 1rem;
-            border-radius: 25px;
-            font-size: 0.9rem;
-            font-weight: 500;
-            transition: all 0.3s ease;
-        }
-
-        .tech-item:hover {
-            transform: scale(1.1);
-            box-shadow: var(--glow);
-        }
-
-        .cta-button {
-            display: inline-block;
-            background: var(--gradient);
+            background: var(--glass);
+            backdrop-filter: var(--blur);
+            -webkit-backdrop-filter: var(--blur);
+            border: 1px solid var(--glass-border);
             color: white;
             padding: 1rem 2rem;
             border-radius: 50px;
-            text-decoration: none;
+            font-size: 1rem;
             font-weight: 600;
-            transition: all 0.3s ease;
-            margin: 1rem;
-            box-shadow: 0 5px 15px rgba(99, 102, 241, 0.3);
+            transition: var(--transition);
+            position: relative;
+            overflow: hidden;
+            cursor: pointer;
+        }
+
+        .tech-item::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: var(--gradient-primary);
+            transition: left 0.3s;
+            z-index: -1;
+        }
+
+        .tech-item:hover::before {
+            left: 0;
+        }
+
+        .tech-item:hover {
+            transform: translateY(-5px) scale(1.05);
+            box-shadow: var(--glow-primary);
+            border-color: var(--primary);
+        }
+
+        /* CTA Button - Advanced */
+        .cta-button {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            background: var(--gradient-primary);
+            color: white;
+            padding: 1.5rem 3rem;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 1.1rem;
+            transition: var(--transition);
+            margin: 2rem;
+            position: relative;
+            overflow: hidden;
+            box-shadow: var(--glow-primary);
+            border: none;
+            cursor: pointer;
+        }
+
+        .cta-button::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+            transition: left 0.5s;
+        }
+
+        .cta-button:hover::before {
+            left: 100%;
         }
 
         .cta-button:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 10px 25px rgba(99, 102, 241, 0.4);
+            transform: translateY(-3px) scale(1.05);
+            box-shadow: 0 20px 60px rgba(99, 102, 241, 0.6);
         }
 
+        .cta-button:active {
+            transform: translateY(-1px) scale(1.02);
+        }
+
+        /* Contact Grid - Modern */
         .contact-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
             gap: 2rem;
-            margin: 2rem 0;
+            margin: 3rem 0;
         }
 
         .contact-item {
             display: flex;
             align-items: center;
-            padding: 1.5rem;
-            background: white;
-            border-radius: 15px;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
-            transition: all 0.3s ease;
+            padding: 2rem;
+            background: var(--glass);
+            backdrop-filter: var(--blur);
+            -webkit-backdrop-filter: var(--blur);
+            border: 1px solid var(--glass-border);
+            border-radius: var(--border-radius);
+            transition: var(--transition);
+            position: relative;
+            overflow: hidden;
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .contact-item::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 4px;
+            height: 100%;
+            background: var(--gradient-primary);
+            transform: scaleY(0);
+            transition: transform 0.3s;
+            transform-origin: bottom;
+        }
+
+        .contact-item:hover::before {
+            transform: scaleY(1);
+            transform-origin: top;
         }
 
         .contact-item:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+            transform: translateX(10px);
+            box-shadow: var(--shadow-medium);
+            border-color: var(--primary);
+            background: var(--glass-strong);
         }
 
         .contact-item i {
-            font-size: 1.5rem;
+            font-size: 2rem;
             color: var(--primary);
-            margin-right: 1rem;
-            width: 30px;
+            margin-right: 1.5rem;
+            width: 40px;
+            transition: var(--transition);
         }
 
+        .contact-item:hover i {
+            transform: scale(1.2) rotate(5deg);
+            color: var(--secondary);
+        }
+
+        /* Footer - Ultra Modern */
         .footer {
-            background: var(--dark);
+            background: var(--gradient-dark);
             color: white;
             text-align: center;
-            padding: 3rem 0;
-            margin-top: 4rem;
+            padding: 4rem 0;
+            margin-top: 6rem;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .footer::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000"><defs><pattern id="footer-pattern" width="50" height="50" patternUnits="userSpaceOnUse"><circle cx="25" cy="25" r="1" fill="white" opacity="0.05"/></pattern></defs><rect width="1000" height="1000" fill="url(%23footer-pattern)"/></svg>');
         }
 
         .footer .tagline {
             font-style: italic;
             opacity: 0.8;
             margin-top: 1rem;
+            font-weight: 300;
+            font-size: 1.1rem;
         }
 
+        /* Responsive Design */
         @media (max-width: 768px) {
+            .hero {
+                min-height: 90vh;
+                padding: 2rem 1rem;
+            }
+
             .hero h1 {
                 font-size: 2.5rem;
             }
@@ -277,51 +597,129 @@
                 font-size: 1.2rem;
             }
 
+            .section {
+                padding: 80px 0;
+            }
+
             .section h2 {
                 font-size: 2rem;
             }
 
+            .card {
+                padding: 2rem;
+                margin: 2rem 0;
+            }
+
             .metric-grid {
                 grid-template-columns: 1fr;
+                gap: 1.5rem;
             }
 
             .contact-grid {
                 grid-template-columns: 1fr;
             }
+
+            .tech-stack {
+                gap: 1rem;
+            }
+
+            .tech-item {
+                padding: 0.8rem 1.5rem;
+                font-size: 0.9rem;
+            }
         }
 
-        .animate-on-scroll {
+        /* Loading Animation */
+        .loading {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: var(--darker);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 9999;
+            transition: opacity 0.5s, visibility 0.5s;
+        }
+
+        .loading.hidden {
             opacity: 0;
-            transform: translateY(50px);
-            transition: all 0.6s ease;
+            visibility: hidden;
         }
 
-        .animate-on-scroll.visible {
-            opacity: 1;
-            transform: translateY(0);
+        .loading-spinner {
+            width: 60px;
+            height: 60px;
+            border: 4px solid var(--glass-border);
+            border-top: 4px solid var(--primary);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
         }
 
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        /* Pulse Animation */
         .pulse {
-            animation: pulse 2s infinite;
+            animation: pulse 2s ease-in-out infinite;
         }
 
         @keyframes pulse {
-            0% { box-shadow: 0 0 0 0 rgba(99, 102, 241, 0.4); }
-            70% { box-shadow: 0 0 0 10px rgba(99, 102, 241, 0); }
-            100% { box-shadow: 0 0 0 0 rgba(99, 102, 241, 0); }
+            0%, 100% {
+                box-shadow: 0 0 0 0 rgba(99, 102, 241, 0.4);
+                transform: scale(1);
+            }
+            50% {
+                box-shadow: 0 0 0 20px rgba(99, 102, 241, 0);
+                transform: scale(1.05);
+            }
+        }
+
+        /* Scroll Indicator */
+        .scroll-indicator {
+            position: absolute;
+            bottom: 2rem;
+            left: 50%;
+            transform: translateX(-50%);
+            animation: bounce 2s infinite;
+        }
+
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {
+                transform: translateX(-50%) translateY(0);
+            }
+            40% {
+                transform: translateX(-50%) translateY(-10px);
+            }
+            60% {
+                transform: translateX(-50%) translateY(-5px);
+            }
         }
     </style>
 </head>
 <body>
+    <!-- Loading Screen -->
+    <div class="loading" id="loading">
+        <div class="loading-spinner"></div>
+    </div>
+
     <!-- Hero Section -->
     <section class="hero">
-        <div class="container">
+        <div class="particle-container" id="particle-container"></div>
+        <div class="hero-content">
             <h1>🌟 Golden Edge Portfolio</h1>
             <div class="subtitle">Lebede Ngartera</div>
             <div class="tagline">AI Strategist | Bayesian RAG Pioneer | Ph.D. in Applied Mathematics</div>
-            <p style="margin-top: 2rem; font-size: 1.1rem; max-width: 600px; margin-left: auto; margin-right: auto;">
+            <p style="margin-top: 2rem; font-size: 1.3rem; max-width: 700px; margin-left: auto; margin-right: auto; color: rgba(255, 255, 255, 0.8);">
                 Welcome to my revolutionary portfolio showcasing cutting-edge AI research and implementations in the Golden Age of Technology.
             </p>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down" style="color: rgba(255, 255, 255, 0.6); font-size: 1.5rem;"></i>
         </div>
     </section>
 
@@ -330,14 +728,14 @@
         <div class="container">
             <h2>🚀 Executive Summary</h2>
             <div class="card featured">
-                <p><strong>Visionary AI researcher</strong> pioneering Bayesian approaches to Retrieval-Augmented Generation (RAG) systems. Ph.D. in Applied Mathematics with expertise in probabilistic machine learning, uncertainty quantification, and production-ready AI architectures.</p>
+                <p style="font-size: 1.2rem; line-height: 1.7; color: rgba(255, 255, 255, 0.9);"><strong>Visionary AI researcher</strong> pioneering Bayesian approaches to Retrieval-Augmented Generation (RAG) systems. Ph.D. in Applied Mathematics with expertise in probabilistic machine learning, uncertainty quantification, and production-ready AI architectures.</p>
 
-                <h3>Key Achievements:</h3>
-                <ul>
-                    <li><strong>+20.6% improvement</strong> in P@3 metrics for Bayesian RAG systems</li>
-                    <li><strong>26.8% better calibration</strong> through Monte Carlo Dropout techniques</li>
-                    <li><strong>Revolutionary framework</strong> for uncertainty-aware AI systems</li>
-                    <li><strong>Open-source contributions</strong> advancing AI reliability and reproducibility</li>
+                <h3 style="color: var(--accent); margin-top: 2rem;">Key Achievements:</h3>
+                <ul style="list-style: none; padding: 0;">
+                    <li style="margin: 1rem 0; padding: 1rem; background: var(--glass); border-radius: 12px; border-left: 4px solid var(--primary);"><strong style="color: var(--tertiary);">+20.6% improvement</strong> in P@3 metrics for Bayesian RAG systems</li>
+                    <li style="margin: 1rem 0; padding: 1rem; background: var(--glass); border-radius: 12px; border-left: 4px solid var(--secondary);"><strong style="color: var(--tertiary);">26.8% better calibration</strong> through Monte Carlo Dropout techniques</li>
+                    <li style="margin: 1rem 0; padding: 1rem; background: var(--glass); border-radius: 12px; border-left: 4px solid var(--accent);"><strong style="color: var(--tertiary);">Revolutionary framework</strong> for uncertainty-aware AI systems</li>
+                    <li style="margin: 1rem 0; padding: 1rem; background: var(--glass); border-radius: 12px; border-left: 4px solid var(--primary);"><strong style="color: var(--tertiary);">Open-source contributions</strong> advancing AI reliability and reproducibility</li>
                 </ul>
             </div>
         </div>
@@ -349,14 +747,14 @@
             <h2>🧬 Featured Research & Innovations</h2>
 
             <div class="card featured">
-                <h3>Bayesian RAG Peer Review Platform</h3>
-                <p><strong>Framework:</strong> Uncertainty-Aware Retrieval-Augmented Generation with Monte Carlo Dropout</p>
-                <p><strong>Performance:</strong> +20.6% improvement in P@3, 26.8% better calibration</p>
-                <p><strong>Impact:</strong> Transforming AI reliability through probabilistic methods</p>
-                <p><strong>Repository:</strong> <a href="https://github.com/TeraSystemsAI/bayesian-rag-peer-review" target="_blank">TeraSystemsAI/bayesian-rag-peer-review</a></p>
+                <h3 style="font-size: 1.8rem; margin-bottom: 1rem; background: var(--gradient-primary); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">Bayesian RAG Peer Review Platform</h3>
+                <p style="font-size: 1.1rem; margin-bottom: 0.5rem;"><strong style="color: var(--accent);">Framework:</strong> Uncertainty-Aware Retrieval-Augmented Generation with Monte Carlo Dropout</p>
+                <p style="font-size: 1.1rem; margin-bottom: 0.5rem;"><strong style="color: var(--accent);">Performance:</strong> +20.6% improvement in P@3, 26.8% better calibration</p>
+                <p style="font-size: 1.1rem; margin-bottom: 1rem;"><strong style="color: var(--accent);">Impact:</strong> Transforming AI reliability through probabilistic methods</p>
+                <p style="font-size: 1.1rem;"><strong style="color: var(--accent);">Repository:</strong> <a href="https://github.com/TeraSystemsAI/bayesian-rag-peer-review" target="_blank" style="color: var(--primary); text-decoration: none; font-weight: 600;">TeraSystemsAI/bayesian-rag-peer-review ↗</a></p>
 
                 <div class="tech-stack">
-                    <span class="tech-item">🤖 Bayesian Methods</span>
+                    <span class="tech-item">🧬 Bayesian Methods</span>
                     <span class="tech-item">🔍 RAG Systems</span>
                     <span class="tech-item">📊 Uncertainty Quantification</span>
                     <span class="tech-item">⚡ Monte Carlo Dropout</span>
@@ -386,32 +784,32 @@
             <h2>🏆 Research Excellence</h2>
 
             <div class="card">
-                <h3>Bayesian Neural Networks</h3>
-                <ul>
-                    <li><strong>Advanced Uncertainty Quantification</strong> - Monte Carlo Dropout implementation</li>
-                    <li><strong>Probabilistic Deep Learning</strong> - Bayesian convolutional and transformer architectures</li>
-                    <li><strong>Reliability Metrics</strong> - Expected Calibration Error (ECE) optimization</li>
-                    <li><strong>Scalable Inference</strong> - Efficient variational inference techniques</li>
+                <h3 style="color: var(--primary); margin-bottom: 1rem;">Bayesian Neural Networks</h3>
+                <ul style="list-style: none; padding: 0;">
+                    <li style="margin: 0.8rem 0; padding-left: 1.5rem; position: relative;"><span style="position: absolute; left: 0; color: var(--accent);">▸</span> <strong>Advanced Uncertainty Quantification</strong> - Monte Carlo Dropout implementation</li>
+                    <li style="margin: 0.8rem 0; padding-left: 1.5rem; position: relative;"><span style="position: absolute; left: 0; color: var(--accent);">▸</span> <strong>Probabilistic Deep Learning</strong> - Bayesian convolutional and transformer architectures</li>
+                    <li style="margin: 0.8rem 0; padding-left: 1.5rem; position: relative;"><span style="position: absolute; left: 0; color: var(--accent);">▸</span> <strong>Reliability Metrics</strong> - Expected Calibration Error (ECE) optimization</li>
+                    <li style="margin: 0.8rem 0; padding-left: 1.5rem; position: relative;"><span style="position: absolute; left: 0; color: var(--accent);">▸</span> <strong>Scalable Inference</strong> - Efficient variational inference techniques</li>
                 </ul>
             </div>
 
             <div class="card">
-                <h3>Reproducible Research Framework</h3>
-                <ul>
-                    <li><strong>Rigorous Validation</strong> - Statistical significance testing and cross-validation</li>
-                    <li><strong>Open Science</strong> - Reproducible experiments with public datasets</li>
-                    <li><strong>Peer Review Automation</strong> - AI-assisted research evaluation systems</li>
-                    <li><strong>Knowledge Discovery</strong> - Automated literature review and synthesis</li>
+                <h3 style="color: var(--secondary); margin-bottom: 1rem;">Reproducible Research Framework</h3>
+                <ul style="list-style: none; padding: 0;">
+                    <li style="margin: 0.8rem 0; padding-left: 1.5rem; position: relative;"><span style="position: absolute; left: 0; color: var(--tertiary);">▸</span> <strong>Rigorous Validation</strong> - Statistical significance testing and cross-validation</li>
+                    <li style="margin: 0.8rem 0; padding-left: 1.5rem; position: relative;"><span style="position: absolute; left: 0; color: var(--tertiary);">▸</span> <strong>Open Science</strong> - Reproducible experiments with public datasets</li>
+                    <li style="margin: 0.8rem 0; padding-left: 1.5rem; position: relative;"><span style="position: absolute; left: 0; color: var(--tertiary);">▸</span> <strong>Peer Review Automation</strong> - AI-assisted research evaluation systems</li>
+                    <li style="margin: 0.8rem 0; padding-left: 1.5rem; position: relative;"><span style="position: absolute; left: 0; color: var(--tertiary);">▸</span> <strong>Knowledge Discovery</strong> - Automated literature review and synthesis</li>
                 </ul>
             </div>
 
             <div class="card">
-                <h3>Data Science & Analytics</h3>
-                <ul>
-                    <li><strong>End-to-End Pipelines</strong> - From raw data to production insights</li>
-                    <li><strong>Statistical Modeling</strong> - Advanced probabilistic and Bayesian methods</li>
-                    <li><strong>Performance Optimization</strong> - Scalable algorithms for big data</li>
-                    <li><strong>Automation Systems</strong> - ML Ops and continuous learning pipelines</li>
+                <h3 style="color: var(--accent); margin-bottom: 1rem;">Data Science & Analytics</h3>
+                <ul style="list-style: none; padding: 0;">
+                    <li style="margin: 0.8rem 0; padding-left: 1.5rem; position: relative;"><span style="position: absolute; left: 0; color: var(--primary);">▸</span> <strong>End-to-End Pipelines</strong> - From raw data to production insights</li>
+                    <li style="margin: 0.8rem 0; padding-left: 1.5rem; position: relative;"><span style="position: absolute; left: 0; color: var(--primary);">▸</span> <strong>Statistical Modeling</strong> - Advanced probabilistic and Bayesian methods</li>
+                    <li style="margin: 0.8rem 0; padding-left: 1.5rem; position: relative;"><span style="position: absolute; left: 0; color: var(--primary);">▸</span> <strong>Performance Optimization</strong> - Scalable algorithms for big data</li>
+                    <li style="margin: 0.8rem 0; padding-left: 1.5rem; position: relative;"><span style="position: absolute; left: 0; color: var(--primary);">▸</span> <strong>Automation Systems</strong> - ML Ops and continuous learning pipelines</li>
                 </ul>
             </div>
         </div>
@@ -422,10 +820,10 @@
         <div class="container">
             <h2>💰 Support My Research</h2>
             <div class="card featured">
-                <p>Help fund cutting-edge AI research in Bayesian RAG and uncertainty quantification.</p>
-                <p><em>Your support enables Bayesian neural networks, reproducible research, and open-source AI tools.</em></p>
+                <p style="font-size: 1.2rem; line-height: 1.7; color: rgba(255, 255, 255, 0.9);">Help fund cutting-edge AI research in Bayesian RAG and uncertainty quantification.</p>
+                <p style="font-style: italic; color: rgba(255, 255, 255, 0.7); margin: 1rem 0;"><em>Your support enables Bayesian neural networks, reproducible research, and open-source AI tools.</em></p>
 
-                <div style="text-align: center; margin-top: 2rem;">
+                <div style="text-align: center; margin-top: 3rem;">
                     <a href="https://buy.stripe.com/3cI9AS11N67I3W66IH04801" class="cta-button pulse" target="_blank">
                         <i class="fas fa-heart"></i> 💳 Donate via Stripe
                     </a>
@@ -439,11 +837,11 @@
         <div class="container">
             <h2>🏢 Professional Background</h2>
             <div class="card">
-                <ul>
-                    <li><strong>Ph.D. in Applied Mathematics</strong> - Advanced mathematical foundations</li>
-                    <li><strong>AI Strategist</strong> - Transforming complex data into intelligence</li>
-                    <li><strong>Research Organization</strong> - TeraSystemsAI (research@terasystems.ai)</li>
-                    <li><strong>ORCID</strong>: <a href="https://orcid.org/0000-0003-0561-1305" target="_blank">0000-0003-0561-1305</a></li>
+                <ul style="list-style: none; padding: 0;">
+                    <li style="margin: 1.5rem 0; padding: 1.5rem; background: var(--glass); border-radius: 12px; border-left: 4px solid var(--primary);"><strong style="color: var(--accent);">Ph.D. in Applied Mathematics</strong><br><span style="color: rgba(255, 255, 255, 0.7);">Advanced mathematical foundations and probabilistic methods</span></li>
+                    <li style="margin: 1.5rem 0; padding: 1.5rem; background: var(--glass); border-radius: 12px; border-left: 4px solid var(--secondary);"><strong style="color: var(--accent);">AI Strategist</strong><br><span style="color: rgba(255, 255, 255, 0.7);">Transforming complex data into intelligence through cutting-edge AI</span></li>
+                    <li style="margin: 1.5rem 0; padding: 1.5rem; background: var(--glass); border-radius: 12px; border-left: 4px solid var(--tertiary);"><strong style="color: var(--accent);">Research Organization</strong><br><span style="color: rgba(255, 255, 255, 0.7);">TeraSystemsAI (research@terasystems.ai)</span></li>
+                    <li style="margin: 1.5rem 0; padding: 1.5rem; background: var(--glass); border-radius: 12px; border-left: 4px solid var(--primary);"><strong style="color: var(--accent);">ORCID</strong><br><a href="https://orcid.org/0000-0003-0561-1305" target="_blank" style="color: var(--primary); text-decoration: none;">0000-0003-0561-1305 ↗</a></li>
                 </ul>
             </div>
         </div>
@@ -474,40 +872,40 @@
                 <a href="mailto:research@terasystems.ai" class="contact-item">
                     <i class="fas fa-envelope"></i>
                     <div>
-                        <strong>Research Email</strong><br>
-                        research@terasystems.ai
+                        <strong style="color: var(--primary);">Research Email</strong><br>
+                        <span style="color: rgba(255, 255, 255, 0.7);">research@terasystems.ai</span>
                     </div>
                 </a>
 
                 <a href="mailto:lebede@terasystems.ai" class="contact-item">
                     <i class="fas fa-envelope"></i>
                     <div>
-                        <strong>Personal Email</strong><br>
-                        lebede@terasystems.ai
+                        <strong style="color: var(--primary);">Personal Email</strong><br>
+                        <span style="color: rgba(255, 255, 255, 0.7);">lebede@terasystems.ai</span>
                     </div>
                 </a>
 
                 <a href="https://www.linkedin.com/in/lebede-ngartera-82429343" class="contact-item" target="_blank">
                     <i class="fab fa-linkedin"></i>
                     <div>
-                        <strong>LinkedIn</strong><br>
-                        Lebede Ngartera
+                        <strong style="color: var(--primary);">LinkedIn</strong><br>
+                        <span style="color: rgba(255, 255, 255, 0.7);">Lebede Ngartera</span>
                     </div>
                 </a>
 
                 <a href="https://github.com/TeraSystemsAI" class="contact-item" target="_blank">
                     <i class="fab fa-github"></i>
                     <div>
-                        <strong>GitHub</strong><br>
-                        TeraSystemsAI
+                        <strong style="color: var(--primary);">GitHub</strong><br>
+                        <span style="color: rgba(255, 255, 255, 0.7);">TeraSystemsAI</span>
                     </div>
                 </a>
 
                 <a href="https://buy.stripe.com/3cI9AS11N67I3W66IH04801" class="contact-item" target="_blank">
                     <i class="fas fa-heart"></i>
                     <div>
-                        <strong>Support Research</strong><br>
-                        Donate via Stripe
+                        <strong style="color: var(--primary);">Support Research</strong><br>
+                        <span style="color: rgba(255, 255, 255, 0.7);">Donate via Stripe</span>
                     </div>
                 </a>
             </div>
@@ -517,28 +915,65 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <h3>🌟 Golden Edge Portfolio</h3>
-            <p>Lebede Ngartera | AI Strategist & Bayesian RAG Pioneer</p>
+            <h3 style="font-size: 1.8rem; font-weight: 700; margin-bottom: 0.5rem;">🌟 Golden Edge Portfolio</h3>
+            <p style="font-size: 1.1rem; margin-bottom: 0.5rem;">Lebede Ngartera | AI Strategist & Bayesian RAG Pioneer</p>
             <div class="tagline">
                 *"Revolutionizing AI through Bayesian methods and reproducible research"*
             </div>
-            <p style="margin-top: 1rem; font-size: 0.9rem; opacity: 0.7;">
+            <p style="margin-top: 2rem; font-size: 0.9rem; opacity: 0.6;">
                 © 2025 TeraSystemsAI | Built in the Golden Age of Technology
             </p>
         </div>
     </footer>
 
     <script>
-        // Intersection Observer for animations
+        // Advanced Loading Animation
+        window.addEventListener('load', () => {
+            const loading = document.getElementById('loading');
+            setTimeout(() => {
+                loading.classList.add('hidden');
+            }, 1000);
+        });
+
+        // Advanced Particle System
+        function createParticleSystem() {
+            const container = document.getElementById('particle-container');
+            const particleCount = 100;
+
+            for (let i = 0; i < particleCount; i++) {
+                const particle = document.createElement('div');
+                particle.className = 'particle';
+
+                // Random properties
+                const size = Math.random() * 6 + 2;
+                const left = Math.random() * 100;
+                const animationDuration = Math.random() * 20 + 10;
+                const animationDelay = Math.random() * 20;
+
+                particle.style.cssText = `
+                    width: ${size}px;
+                    height: ${size}px;
+                    left: ${left}%;
+                    animation-duration: ${animationDuration}s;
+                    animation-delay: ${animationDelay}s;
+                `;
+
+                container.appendChild(particle);
+            }
+        }
+
+        // Intersection Observer with advanced effects
         const observerOptions = {
             threshold: 0.1,
-            rootMargin: '0px 0px -50px 0px'
+            rootMargin: '0px 0px -100px 0px'
         };
 
         const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
+            entries.forEach((entry, index) => {
                 if (entry.isIntersecting) {
-                    entry.target.classList.add('visible');
+                    setTimeout(() => {
+                        entry.target.classList.add('visible');
+                    }, index * 100);
                 }
             });
         }, observerOptions);
@@ -548,45 +983,68 @@
             observer.observe(section);
         });
 
-        // Smooth scrolling for navigation
+        // Advanced hover effects
+        document.querySelectorAll('.tech-item').forEach(item => {
+            item.addEventListener('mouseenter', function() {
+                this.style.transform = 'translateY(-8px) scale(1.1) rotate(2deg)';
+                this.style.boxShadow = '0 20px 40px rgba(99, 102, 241, 0.4)';
+            });
+
+            item.addEventListener('mouseleave', function() {
+                this.style.transform = 'translateY(0) scale(1) rotate(0deg)';
+                this.style.boxShadow = 'none';
+            });
+        });
+
+        // Parallax effect for hero
+        window.addEventListener('scroll', () => {
+            const scrolled = window.pageYOffset;
+            const hero = document.querySelector('.hero');
+            hero.style.transform = `translateY(${scrolled * 0.5}px)`;
+        });
+
+        // Smooth scrolling with offset
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
                 e.preventDefault();
                 const target = document.querySelector(this.getAttribute('href'));
                 if (target) {
-                    target.scrollIntoView({
-                        behavior: 'smooth',
-                        block: 'start'
+                    const offsetTop = target.offsetTop - 80;
+                    window.scrollTo({
+                        top: offsetTop,
+                        behavior: 'smooth'
                     });
                 }
             });
         });
 
-        // Add loading animation
-        window.addEventListener('load', () => {
-            document.body.classList.add('loaded');
+        // Advanced card hover effects
+        document.querySelectorAll('.card').forEach(card => {
+            card.addEventListener('mouseenter', function() {
+                this.style.transform = 'translateY(-15px) rotateX(5deg)';
+                this.style.boxShadow = '0 30px 60px rgba(0, 0, 0, 0.3)';
+            });
+
+            card.addEventListener('mouseleave', function() {
+                this.style.transform = 'translateY(0) rotateX(0deg)';
+                this.style.boxShadow = '0 10px 30px rgba(0, 0, 0, 0.1)';
+            });
         });
 
-        // Particle effect for hero background
-        function createParticles() {
-            const hero = document.querySelector('.hero');
-            for (let i = 0; i < 50; i++) {
-                const particle = document.createElement('div');
-                particle.style.cssText = `
-                    position: absolute;
-                    width: 2px;
-                    height: 2px;
-                    background: rgba(255,255,255,0.1);
-                    border-radius: 50%;
-                    left: ${Math.random() * 100}%;
-                    top: ${Math.random() * 100}%;
-                    animation: float ${Math.random() * 10 + 10}s linear infinite;
-                `;
-                hero.appendChild(particle);
-            }
-        }
+        // Initialize everything
+        createParticleSystem();
 
-        createParticles();
+        // Performance optimization
+        let ticking = false;
+        window.addEventListener('scroll', () => {
+            if (!ticking) {
+                requestAnimationFrame(() => {
+                    // Handle scroll effects here
+                    ticking = false;
+                });
+                ticking = true;
+            }
+        });
     </script>
 </body>
 </html>

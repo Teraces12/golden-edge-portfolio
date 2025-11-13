@@ -52,7 +52,6 @@
 |--------|-------|-------------|
 | P@3 Improvement | +20.6% | Precision at 3 improvement |
 | Calibration | 26.8% | Better calibration through Monte Carlo Dropout |
-| GitHub Stars | 500+ | Community recognition |
 
 ### 🏆 Research Excellence Areas
 - **🧬 Bayesian Neural Networks** - Advanced uncertainty quantification with Monte Carlo Dropout

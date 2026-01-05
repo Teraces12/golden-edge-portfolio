@@ -40,29 +40,29 @@
 
 *Welcome to my revolutionary portfolio showcasing cutting-edge AI research and implementations in the Golden Age of Technology.*
 
-[🎨 **Experience the Interactive Portfolio** →](Golden_Edge_Portfolio_Animated.html)
+[ **Experience the Interactive Portfolio** →](Golden_Edge_Portfolio_Animated.html)
 
 </div>
 
 ---
 
-## 🧬 Featured Research & Innovations
+##  Featured Research & Innovations
 
-### 🧬 Bayesian RAG Peer Review Platform
+###  Bayesian RAG Peer Review Platform
 - **Framework**: Uncertainty-Aware Retrieval-Augmented Generation with Monte Carlo Dropout
 - **Performance**: +20.6% improvement in P@3, 26.8% better calibration
 - **Impact**: Transforming AI reliability through probabilistic methods
 - **Repository**: [TeraSystemsAI/bayesian-rag-peer-review](https://github.com/TeraSystemsAI/bayesian-rag-peer-review)
 
-### 📊 Key Metrics
+###  Key Metrics
 | Metric | Value | Description |
 |--------|-------|-------------|
 | P@3 Improvement | +20.6% | Precision at 3 improvement |
 | Calibration | 26.8% | Better calibration through Monte Carlo Dropout |
 
-### 🏆 Research Excellence Areas
-- **🧬 Bayesian Neural Networks** - Advanced uncertainty quantification with Monte Carlo Dropout
-- **🔬 Reproducible Research** - Rigorous validation methodologies and statistical significance testing
+###  Research Excellence Areas
+- ** Bayesian Neural Networks** - Advanced uncertainty quantification with Monte Carlo Dropout
+- ** Reproducible Research** - Rigorous validation methodologies and statistical significance testing
 - **📊 Data Science Excellence** - End-to-end pipelines from raw data to production insights
 
 ---
@@ -92,7 +92,7 @@ Help fund cutting-edge AI research in Bayesian RAG and uncertainty quantificatio
 
 <div align="center">
 
-# 🌟 Technical Expertise
+#  Technical Expertise
 
 [![Bayesian Methods](https://img.shields.io/badge/Bayesian_Methods-6366f1?style=for-the-badge&logo=python&logoColor=white)](https://github.com/TeraSystemsAI)
 [![RAG Systems](https://img.shields.io/badge/RAG_Systems-8b5cf6?style=for-the-badge&logo=database&logoColor=white)](https://github.com/TeraSystemsAI)
@@ -104,7 +104,7 @@ Help fund cutting-edge AI research in Bayesian RAG and uncertainty quantificatio
 
 ---
 
-## 🎯 Key Achievements
+##  Key Achievements
 
 [![GitHub Stars](https://img.shields.io/badge/GitHub_Stars-500+-yellow?style=for-the-badge&logo=github)](https://github.com/TeraSystemsAI)
 [![P@3 Improvement](https://img.shields.io/badge/P%403_Improvement-+20.6%25-brightgreen?style=for-the-badge)](https://github.com/TeraSystemsAI)
@@ -112,7 +112,7 @@ Help fund cutting-edge AI research in Bayesian RAG and uncertainty quantificatio
 
 ---
 
-## 🏆 Research Focus
+##  Research Focus
 
 [![Peer Reviewed](https://img.shields.io/badge/Peer_Reviewed-Research-informational?style=for-the-badge)](https://github.com/TeraSystemsAI)
 [![Open Source](https://img.shields.io/badge/Open_Source-Apache_2.0-success?style=for-the-badge)](https://github.com/TeraSystemsAI)
@@ -120,18 +120,18 @@ Help fund cutting-edge AI research in Bayesian RAG and uncertainty quantificatio
 
 </div>
 
-- **🧬 Bayesian Methods** - Probabilistic machine learning and uncertainty quantification
-- **🔍 Retrieval-Augmented Generation (RAG)** - Next-generation AI architectures
-- **🗣️ Natural Language Processing** - Advanced text analysis and understanding
-- **🤖 Machine Learning Engineering** - Production-ready AI systems and MLOps
-- **📊 Data Science & Analytics** - End-to-end data solutions and insights
-- **⚡ Monte Carlo Dropout** - Advanced uncertainty estimation techniques
-- **🔬 Uncertainty Quantification** - Reliable AI decision-making frameworks
-- **🌐 Production AI Systems** - Scalable and robust AI deployments
+- ** Bayesian Methods** - Probabilistic machine learning and uncertainty quantification
+- ** Retrieval-Augmented Generation (RAG)** - Next-generation AI architectures
+- ** Natural Language Processing** - Advanced text analysis and understanding
+- ** Machine Learning Engineering** - Production-ready AI systems and MLOps
+- ** Data Science & Analytics** - End-to-end data solutions and insights
+- ** Monte Carlo Dropout** - Advanced uncertainty estimation techniques
+- ** Uncertainty Quantification** - Reliable AI decision-making frameworks
+- ** Production AI Systems** - Scalable and robust AI deployments
 
 ---
 
-## 📧 Connect & Collaborate
+##  Connect & Collaborate
 
 <div align="center">
 
